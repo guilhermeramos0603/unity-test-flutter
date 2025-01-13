@@ -18,4 +18,8 @@ class Person {
     final imcCalcMultiplied = imcCalc * 100;
     return imcCalcMultiplied.roundToDouble() / 100;
   }
+
+  bool get isOlder {
+    return age >= 18;
+  }
 }
